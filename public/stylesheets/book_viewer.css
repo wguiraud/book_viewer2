@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Intel One Mono Light', serif;
+    background-color: #5c5750;
+}
+
+a {
+    color: whitesmoke;
+}
+
+#main a {
+    color: #3753AEFF
+}
+
+body {
+    color: #777;
+    display: flex;
+}
+
+#menu {
+    background-color: #24415c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu li {
+    margin-top: 8px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pure-menu-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#search {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #129FEA;
+    border-radius: 10px;
+    padding: 0 8px 0 10px;
+}
+
+
+#main {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 10px 10px 10px 0;
+}
+
+#main a {
+    text-decoration: none;
+}
+#main ul {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+.content-subhead {
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pure-menu h2 {
+    font-weight: bold;
+    color: #3753ae;
+}
