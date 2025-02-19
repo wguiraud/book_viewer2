@@ -1,7 +1,6 @@
 require "sinatra"
 require "sinatra/reloader" if development?
 require "tilt/erubi"
-require "pry"
 
 before do
   @toc = File.readlines("./data/toc.txt")
